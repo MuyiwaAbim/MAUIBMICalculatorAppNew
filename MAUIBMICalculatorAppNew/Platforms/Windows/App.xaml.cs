@@ -1,4 +1,4 @@
-﻿using MAUIBMICalculatorApp;
+﻿using MAUIBMICalculatorAppNew;
 using Microsoft.UI.Xaml;
 
 // To learn more about WinUI, the WinUI project structure,

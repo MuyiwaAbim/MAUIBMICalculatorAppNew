@@ -1,6 +1,6 @@
 ﻿using Android.App;
 using Android.Runtime;
-using MAUIBMICalculatorApp;
+using MAUIBMICalculatorAppNew;
 
 namespace MAUIBMICalculatorAppNew
 {

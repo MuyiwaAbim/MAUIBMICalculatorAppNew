@@ -5,11 +5,24 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MAUIBMICalculatorAppNew"
     Shell.FlyoutBehavior="Flyout"
-    Title="MAUIBMICalculatorAppNew">
+    Title="MAUI BMI Calculator">
 
+    <!-- User Input Page -->
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+    <!-- BMI Result Page -->
+    <ShellContent
+        Title="BMI Results"
+        ContentTemplate="{DataTemplate local:BMIPage}"
+        Route="Results" />
+
+    <!-- Health Recommendations Page -->
+    <ShellContent 
+        Title="Health Recommendations"
+        ContentTemplate="{DataTemplate local:HealthPage}"
+        Route="Recommendations" />
 
 </Shell>
