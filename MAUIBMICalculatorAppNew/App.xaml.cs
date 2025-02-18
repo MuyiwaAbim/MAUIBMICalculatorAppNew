@@ -9,6 +9,6 @@ public partial class App : Application
 
     protected override Window CreateWindow(IActivationState activationState)
     {
-        return new Window(new AppShell()); // Ensure AppShell is used for navigation
+        return new Window(new AppShell()); 
     }
 }

@@ -1,7 +1,7 @@
 ﻿using MAUIBMICalculatorAppNew;
 using Microsoft.Extensions.Logging;
 
-namespace MAUIBMICalculatorAppNew // ✅ Corrected namespace
+namespace MAUIBMICalculatorAppNew 
 {
     public static class MauiProgram
     {

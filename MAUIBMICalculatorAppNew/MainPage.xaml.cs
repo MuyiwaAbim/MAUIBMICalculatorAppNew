@@ -4,7 +4,7 @@ namespace MAUIBMICalculatorAppNew
 {
     public partial class MainPage : ContentPage
     {
-        private string selectedGender = "Male"; // Default gender
+        private string selectedGender = "Male"; 
         public MainPage()
         {
             InitializeComponent();

@@ -6,17 +6,16 @@ public partial class HealthPage : ContentPage
     {
         InitializeComponent();
 
-        // Display the personalized health recommendation
         RecommendationLabel.Text = recommendation;
     }
 
     private async void OnBackToResultsClicked(object sender, EventArgs e)
     {
-        await Navigation.PopAsync(); // Go back to BMI Results Page
+        await Navigation.PopAsync(); 
     }
 
     private async void OnBackToMainPageClicked(object sender, EventArgs e)
     {
-        await Navigation.PopToRootAsync(); // Go back to Main Page
+        await Navigation.PopToRootAsync(); 
     }
 }

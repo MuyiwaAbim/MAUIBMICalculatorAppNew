@@ -13,7 +13,6 @@ namespace MAUIBMICalculatorAppNew
             HealthStatusLabel.Text = $"Health Status: {healthStatus}";
         }
 
-        // Navigate to Health Recommendations Page
         private async void OnViewRecommendationsClicked(object sender, EventArgs e)
         {
             string recommendation = BMICalculator.GetHealthRecommendation(
@@ -23,7 +22,6 @@ namespace MAUIBMICalculatorAppNew
             await Navigation.PushAsync(new HealthPage(recommendation));
         }
 
-        // Navigate back to the Input Page
         private async void OnGoBackClicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
